@@ -11,7 +11,7 @@
     <input type="search" name="position" id="goog-wm-qt" placeholder="Position?" data-search-input="" autofocus="" />
     <input type="search" name="location" id="goog-wm-qt" placeholder="Location city .i.e. Dubai, Sharjah, Abu Dhabi, Doha ?" data-search-input="" autofocus="" />
     <input type="search" name="country" id="goog-wm-qt" placeholder="Country?" data-search-input="" autofocus="" />
-    <input type="file" name="pic"  id="goog-wm-qt" placeholder="pic" accept="image/*">
+    %{--<input type="file" name="pic"  id="goog-wm-qt" placeholder="pic" accept="image/*">--}%
     <hr/>
     <input type="submit" value="Signup" id="goog-wm-sb" />
 </g:form>

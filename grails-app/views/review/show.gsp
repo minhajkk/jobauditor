@@ -31,6 +31,9 @@
                 <span class="author vcard">By <span class="fn">${user.name}</span></span>
                 <span class="entry-date date published"><time datetime="${review.dateCreated}"><i class="fa fa-calendar-o"></i> <g:formatDate date="${review.dateCreated.toDate()}" type="date" style="Long" /></time></span>
 
+                <span class="social-share-googleplus">
+                    <a href="javascript:;" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-inbox"></i> Send Message</a>
+                </span>
                 <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
                 <span class="social-share-twitter">
                     <a href="https://twitter.com/intent/tweet?hashtags=sample-post,images,test&amp;text=A%20Post%20with%20Images&amp;url=http://localhost:4000/articles/sample-post-images/" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> Tweet</a>
@@ -41,6 +44,7 @@
                 <span class="social-share-googleplus">
                     <a href="https://plus.google.com/share?url=http://localhost:4000/articles/sample-post-images/" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-google-plus-square"></i> +1</a>
                 </span>
+
                 <!-- /.social-share -->
 
             </footer>

@@ -15,7 +15,9 @@
         </a>
 
         <h1 class="site-title animated fadeIn"><a href="${request.contextPath}">Job Auditor</a></h1>
-        <h2 class="site-description animated fadeIn" itemprop="description">Let's review your job!</h2>
+        <h1 class="site-description animated fadeIn" itemprop="description">
+            <a href="${g.createLink(mapping: "newReview")}" class="hvr-border-fade" style="padding:20px">Start review your job here!</a>
+        </h1>
         <g:form controller="review" action="search" data-search-form="" method="get" class="simple-search">
             <label for="q">Search Site Title for:</label>
             <input type="search" name="q" id="goog-wm-qt" placeholder="What are you looking for?" data-search-input="" autofocus="" />

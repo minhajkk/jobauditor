@@ -21,4 +21,8 @@ class ReviewController {
     def search(){
         render view:"search"
     }
+
+    def newReview(){
+        render view:"search"
+    }
 }

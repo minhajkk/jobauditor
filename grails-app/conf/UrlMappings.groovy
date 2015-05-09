@@ -20,7 +20,7 @@ class UrlMappings {
             controller = "review"
             action = "show"
         }
-
+        name newReview : "/review/new"(view: "/review/new")
 
         "500"(view:'/error')
 	}
