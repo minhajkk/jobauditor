@@ -73,6 +73,12 @@ grails.project.dependency.resolution = {
         compile ':spring-security-core:2.0-RC4'
         compile ":admin-interface:0.6.4"
 
+        //for heroku support
+        compile ":heroku:1.0.1",{
+            exclude 'database-session'
+        }
+        compile ":cloud-support:1.0.8"
+
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.7.4"
         //compile ":less-asset-pipeline:1.7.0"
