@@ -8,9 +8,9 @@
 <header class="masthead">
     <div class="wrap">
 
-        <a href="${request.contextPath}" class="site-logo" rel="home" title="JobAuditor.com"  id="job-auditor-main-logo">
+        <a href="${request.contextPath}" class="site-logo" rel="home" title="JobAuditor.com">
             <span>
-                <img src="${g.assetPath(src: "logo2.png")}" width="200" height="200" alt="JobAuditor.com" class="animated fadeInDown">
+                <img src="${g.assetPath(src: "logo2.png")}" width="200" height="200" alt="JobAuditor.com" class="animated fadeInDown hvr-wobble-to-top-right">
             </span>
         </a>
 

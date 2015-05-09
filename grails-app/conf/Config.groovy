@@ -133,3 +133,10 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/**/favicon.ico':                ['permitAll']
 ]
 
+grails.plugin.admin.domains = [
+        "com.jobauditor.auth.User",
+        "com.jobauditor.auth.Role",
+        "com.jobauditor.auth.UserRole",
+        "com.jobauditor.auth.Review"
+]
+grails.plugin.admin.security.forbidUnsecureProduction = false
