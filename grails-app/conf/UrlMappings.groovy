@@ -21,6 +21,7 @@ class UrlMappings {
             action = "show"
         }
         name newReview : "/review/new"(view: "/review/new")
+        name messageMe : "/message/me"(view: "/messageme")
 
         "500"(view:'/error')
 	}

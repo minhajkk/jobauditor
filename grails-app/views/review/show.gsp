@@ -32,9 +32,13 @@
                 <span class="entry-date date published"><time datetime="${review.dateCreated}"><i class="fa fa-calendar-o"></i> <g:formatDate date="${review.dateCreated.toDate()}" type="date" style="Long" /></time></span>
 
                 <span class="social-share-googleplus">
-                    <a href="javascript:;" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-inbox"></i> Send Message</a>
+                    <a href="${g.createLink(mapping: "messageMe")}" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-inbox"></i> Send Message</a>
                 </span>
-                <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
+                <span class="social-share-googleplus">
+                    <a href="${g.createLink(mapping: "messageMe")}" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-exclamation-triangle"></i> Report Abuse</a>
+                </span>
+
+                <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread"> Comment</a></span>
                 <span class="social-share-twitter">
                     <a href="https://twitter.com/intent/tweet?hashtags=sample-post,images,test&amp;text=A%20Post%20with%20Images&amp;url=http://localhost:4000/articles/sample-post-images/" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> Tweet</a>
                 </span>
@@ -51,7 +55,9 @@
             <div class="entry-content">
                 ${review.review}
                 <div id="disqus_thread"></div>
+                <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="m">Diclaimer:</span><span class="p">   </span></code></pre></div>
             </div><!-- /.entry-content -->
+
 
 
         </div><!-- /.entry-wrapper -->

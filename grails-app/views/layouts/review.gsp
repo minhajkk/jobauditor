@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Latest Posts &#8211; Site Title</title>
+    <title>JobAuditor.com</title>
     <meta name="description" content="A simple and clean responsive Jekyll theme for words and photos.">
     <!-- Twitter Cards -->
     <meta name="twitter:title" content="Latest Posts">

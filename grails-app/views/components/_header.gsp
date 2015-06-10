@@ -14,7 +14,7 @@
             </span>
         </a>
 
-        <h1 class="site-title animated fadeIn"><a href="${request.contextPath}">Job Auditor</a></h1>
+        <h1 class="site-title animated fadeIn"><a href="${request.contextPath}">JobAuditor.com</a></h1>
         <h1 class="site-description animated fadeIn" itemprop="description">
             <a href="${g.createLink(mapping: "newReview")}" class="hvr-border-fade" style="padding:20px">Start review your job here!</a>
         </h1>

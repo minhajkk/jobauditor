@@ -20,9 +20,10 @@
 
                 <!-- Search results placeholder -->
                 <h6 data-search-found="0" style="display: block !important;">
-                    <span data-search-found-count="0"></span>0 result(s) found for &ldquo;<span data-search-found-term="">${params.q}</span>&rdquo;.
+                    <span data-search-found-count="0"></span>4 result(s) found for &ldquo;<span data-search-found-term="">${params.q}</span>&rdquo;.
                 </h6>
-                <ul class="post-list" data-search-results=""></ul>
+                <g:render template="results"/>
+                %{--<ul class="post-list" data-search-results=""></ul>--}%
 
 
             </div><!-- /.entry-content -->
